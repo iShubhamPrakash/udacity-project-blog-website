@@ -1,0 +1,139 @@
+@import './css/sm-viewport.css';
+@import './css/md-viewport.css';
+@import './css/lg-viewport.css';
+@import './css/post.css';
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	margin: 0;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: 800;
+}
+
+h2 {
+	color: #186694;
+	font-size: 25px;
+	font-weight: 800;
+}
+
+h3 {
+	color: #1381c0e0;
+	font-size: 22px;
+	font-weight: 800;
+}
+
+h4 {
+	font-size: 18px;
+	margin-bottom: 0.4em;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.5em;
+	margin: 0.5em 0;
+}
+
+a {
+	color: #0a75b3;	
+	font-size: 15px;
+	text-decoration: none;
+}
+
+img, embed, object, video {
+	max-width: 100%;
+}
+
+.header {
+	background-color: #fff;
+	color: gray;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em 5em;
+	border-bottom: 1px solid lightgray;
+}
+
+.logo {
+	width: 225px;
+}
+
+.blog-post {
+	border: 1px solid #f3f3f3;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	border-radius: 8px;
+	cursor: pointer;
+}
+.blog-post:hover{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.blog-post-img{
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.blog-post-meta {
+	padding: 1em;
+}
+
+.blog-post-category {
+	color: #5b5c5c;
+	font-size: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
+
+.blog-post-title {
+	margin: 0;
+	color: rgb(12, 88, 136);
+}
+
+.blog-post-summary{
+	color: gray;
+	font-size: 14px;
+}
+
+.view-post-btn {
+	color: #1b73a7;
+	padding: 3%;
+	text-align: right;
+}
+
+.view-post-btn :hover {
+	color: #0795e6;
+	text-decoration: underline;
+}
+
+.footer {
+	background-color: #353E49;
+	color: white;
+	text-align: center;
+	padding: 2em;
+	margin: 0;
+}
+
+.social-links{
+	cursor: pointer;
+	width: 230px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}

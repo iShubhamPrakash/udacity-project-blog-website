@@ -1,0 +1,17 @@
+@media only screen and (min-width: 1024px) {
+
+	.content {
+		margin: 5% 10%;
+		display: grid;
+		grid-template-columns: 70% 1fr;
+	}
+	.blog-archive {
+		margin: 5% 10%;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+		grid-column-gap: 25px;
+		grid-row-gap: 25px;
+	}
+
+}
